@@ -17,13 +17,12 @@ var showValue = function () {
 // *  Function Expression  not following hosting
 /////////////////////////////////////////////////////////
 // * varibles var - let - const
-
 /*
  *  different var vs let
  * 1 - hosting
  * 2 - has already been declared or Re-Declerate
  * 3 - scope local and global and logical => if or for etc
-  */
+ */
 
 /* var num1 = 10;
 let num2 = 20; */
@@ -45,11 +44,18 @@ console.log("num1:", num1); // * success but not true
 console.log("num2:", num2); // *  has already been declared error 
 */
 // * scope global
-let num1 = 10;
+/* let num1 = 10;
 
 {
     // * scope local
     let num1 = 12;
     console.log(num1);
 }
-console.log(num1);
+console.log(num1); */
+var num1 = 10;
+let num2 = 20;
+const num3 = 30;  // * not update or not chnage value and like the let varibale
+
+console.log("num1:", num1);
+console.log("num2:", num2);
+console.log("num3:", num3); 
