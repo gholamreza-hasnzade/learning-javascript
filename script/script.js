@@ -115,8 +115,24 @@ showValue(`thia ia test...`);  */
 }
 sun(5, 5, 5); */
 
-const sum = (...sumArgs) => {
+/* const sum = (...sumArgs) => {
     return sumArgs.reduce((prev, current) => prev + current);
 };
 
-console.log(sum(10, 20, 30));
+console.log(sum(10, 20, 30)); */
+/////////////////////////////////////////////////////////
+
+/*
+ * rest-operators
+ * ...spread-syntax
+ */
+
+let users1 = ["ali", "mmad", "kazem"];
+let users2 = ["ali", "mmad", "kazem", "jafar"];
+/* let allUsers = [...users1, ...users2];
+console.log(allUsers); */
+
+function showUsers(...params) { // * Rest-operators
+    params.forEach((user) => console.log(user));
+}
+showUsers(...users1); // * Spread-syntax
