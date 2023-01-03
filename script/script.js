@@ -87,7 +87,6 @@ let user1 = new User()
 console.log(user1);
  */
 
-
 /* let users = [
     { id: 1, name: "ali", age: 25 },
     { id: 2, name: "madd", age: 26 },
@@ -102,3 +101,22 @@ let mainUser = users.find(user => user.name === "ali")
 console.log(mainUser); */
 
 /////////////////////////////////////////////////////////
+/*
+ * rest-operators
+ * ...example
+ */
+/* function showValue(value) {
+    console.log(value);
+}
+showValue(`thia ia test...`);  */
+
+/* function sun(a, b, c) {
+    console.log(arguments);
+}
+sun(5, 5, 5); */
+
+const sum = (...sumArgs) => {
+    return sumArgs.reduce((prev, current) => prev + current);
+};
+
+console.log(sum(10, 20, 30));
