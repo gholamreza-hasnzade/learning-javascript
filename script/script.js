@@ -188,4 +188,12 @@ num1 + num2 === 13 ? console.log("biger in 13") : console.log("small in 13");
 
 /*
  * Module
+ * tow important keys
+ * 1 -  import وارد کردن
+ * 2 - export صادر کردن
  */
+/* import userFullName, { userName, num , double } from "./utils.js";
+
+
+console.log(userName, num, double(2), userFullName); */
+/////////////////////////////////////////////////////////
