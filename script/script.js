@@ -234,3 +234,46 @@ let user = {
 
 user.showAge() */
 /////////////////////////////////////////////////////////
+
+/*
+ * bind in javascript
+ */
+/* const user = {
+    id: 12,
+    username: "ali",
+    age: 21,
+    showAge: function () {
+        console.log(this);
+    },
+};
+
+user.showAge();
+let showAgeFunc = user.showAge.bind(user);
+showAgeFunc(); */
+/////////////////////////////////////////////////////////
+
+/* let user1 = {
+    id: 1,
+    username: "ali",
+    age: 21,
+};
+
+let user2 = {
+    id: 2,
+    username: "Reza",
+    age: 28,
+};
+
+function showAge() {
+    console.log(`your age`, this.age);
+}
+showAge();
+
+let user1ShowAge = showAge.bind(user1);
+let user2ShowAge = showAge.bind(user2);
+
+user1ShowAge();
+user2ShowAge();
+ */
+
+/////////////////////////////////////////////////////////
