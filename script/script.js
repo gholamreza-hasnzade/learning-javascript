@@ -168,3 +168,20 @@ console.log(a, b); */
 };
 const { id:userId, name } = user;
 console.log(userId); */
+/////////////////////////////////////////////////////////
+
+/*
+ * Ternary Condition
+ */
+
+/* let num1 = 8;
+let num2 = 4;
+
+if (num1 + num2 === 13) {
+    console.log("biger in 13");
+} else {
+    console.log("small in 13");
+}
+
+num1 + num2 === 13 ? console.log("biger in 13") : console.log("small in 13");
+ */
