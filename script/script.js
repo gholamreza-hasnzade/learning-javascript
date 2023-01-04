@@ -197,3 +197,16 @@ num1 + num2 === 13 ? console.log("biger in 13") : console.log("small in 13");
 
 console.log(userName, num, double(2), userFullName); */
 /////////////////////////////////////////////////////////
+
+/*
+ * map in lists
+ * ما زمانی از مپ استفاده میکنیم بخواهیم بلایی به سر تک تک آرایه های مورد نظر خود بیاریم
+ */
+
+let scores = [0, 1, 2, 3, 4, 5];
+
+let mapResult = scores.map((score) => {
+    return score * 2;
+});
+console.log(mapResult); // * result Always in arrary but forEach never return result
+/////////////////////////////////////////////////////////
