@@ -127,12 +127,31 @@ console.log(sum(10, 20, 30)); */
  * ...spread-syntax
  */
 
-let users1 = ["ali", "mmad", "kazem"];
+/* let users1 = ["ali", "mmad", "kazem"];
 let users2 = ["ali", "mmad", "kazem", "jafar"];
-/* let allUsers = [...users1, ...users2];
-console.log(allUsers); */
+let allUsers = [...users1, ...users2];
+console.log(allUsers);
 
 function showUsers(...params) { // * Rest-operators
     params.forEach((user) => console.log(user));
 }
-showUsers(...users1); // * Spread-syntax
+showUsers(...users1); // * Spread-syntax */
+/////////////////////////////////////////////////////////
+/*
+ * array-destructuring
+ */
+
+/* let array = [12, "ali", true, "babak", "mma"];
+const [item1, ,item2, ...others] = array;
+console.log(item1 ,  item2, others);
+ */
+/* let [a = 1, b = 12] = [10];
+console.log(a, b); */
+
+/* const makeNumber = () => {
+    return [40, 80];
+};
+
+let [a = 1, b = 12] = makeNumber(); // * [40, 80]
+console.log(a, b); */
+/////////////////////////////////////////////////////////
