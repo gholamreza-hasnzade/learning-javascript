@@ -185,3 +185,7 @@ if (num1 + num2 === 13) {
 
 num1 + num2 === 13 ? console.log("biger in 13") : console.log("small in 13");
  */
+
+/*
+ * Module
+ */
