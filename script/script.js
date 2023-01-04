@@ -202,11 +202,35 @@ console.log(userName, num, double(2), userFullName); */
  * map in lists
  * ما زمانی از مپ استفاده میکنیم بخواهیم بلایی به سر تک تک آرایه های مورد نظر خود بیاریم
  */
-
+/* 
 let scores = [0, 1, 2, 3, 4, 5];
 
 let mapResult = scores.map((score) => {
     return score * 2;
 });
-console.log(mapResult); // * result Always in arrary but forEach never return result
+console.log(mapResult); // * result Always in arrary but forEach never return result */
+/////////////////////////////////////////////////////////
+
+/*
+ * this in javascript
+ */
+
+/* function clickHandler(param) {
+    console.log(param);
+}
+function showvalue() {
+    console.log(this);
+}
+showvalue();
+
+let user = {
+    id: 12,
+    name: "Amin",
+    age: 22,
+    showAge: function(){
+        console.log(this?.name);
+    }
+};
+
+user.showAge() */
 /////////////////////////////////////////////////////////
