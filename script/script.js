@@ -155,3 +155,16 @@ console.log(a, b); */
 let [a = 1, b = 12] = makeNumber(); // * [40, 80]
 console.log(a, b); */
 /////////////////////////////////////////////////////////
+
+/*
+ * object-destructuring
+ */
+
+/* let user = {
+    id: 1,
+    name: "madd",
+    family: "maddie",
+    age: 23,
+};
+const { id:userId, name } = user;
+console.log(userId); */
