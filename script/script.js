@@ -411,5 +411,18 @@ let totalPrice = shoppingCart.reduce(function (prev = 0, current) {
 });
 console.log(totalPrice); */
 
-
 /////////////////////////////////////////////////////////
+/*
+ * falsy-and-truthy-values
+ *  falsy: false 0 '' null undefined = false
+ * truthy  true !0=> (1,-1)  !''=>('reza') [] {} = true
+ */
+
+/* let isLogin = undefined;
+
+if (isLogin) {
+  console.log("your login");
+} else {
+  console.log("your not login");
+}
+ */
