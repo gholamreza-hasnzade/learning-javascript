@@ -374,3 +374,42 @@ let filterAllProducts = allProducts.filter((product) => {
     return product.price < 5000
 })
 console.log(filterAllProducts); */
+
+/////////////////////////////////////////////////////////
+
+/*
+ * reduce
+ */
+
+/* let numbers = [2, 12, 34, 90, 18, 18, 26];
+
+let newArr = numbers.filter((num) => {
+  return num > 25;
+});
+ */
+//console.log(newArr);
+/////////////////////////////////////////////////////////
+
+/* let nums = numbers.reduce(function (prev, current) {
+  // * prev = 2 , current = 12
+  return prev + current;
+});
+//console.log(nums);
+
+let shoppingCart = [
+  { id: 1, name: "laptop", price: 5 },
+  { id: 2, name: "phone", price: 5 },
+  { id: 3, name: "milk", price: 5 },
+  { id: 4, name: "sabon golnar", price: 5 },
+];
+
+let totalPrice = shoppingCart.reduce(function (prev = 0, current) {
+  if (prev.price) {
+    return Number(prev.price) + Number(current.price);
+  }
+  return prev + current.price;
+});
+console.log(totalPrice); */
+
+
+/////////////////////////////////////////////////////////
