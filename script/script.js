@@ -293,3 +293,16 @@ let benz = new Car("black", "benz", 4)
 
 console.log(bwm);
 console.log(benz); */
+
+/* class Car {
+    constructor(color, name, tairCount) {
+        this.color = color
+        this.name = name
+        this.tairCount = tairCount
+    }
+    
+}
+
+let bwm = new Car("red", "bwm", 4)
+console.log(bwm);
+ */
