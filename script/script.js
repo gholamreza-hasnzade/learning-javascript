@@ -343,3 +343,8 @@ console.log(firstTrcuk);
  */
 
 /////////////////////////////////////////////////////////
+/*
+ * template-string
+ */
+/* let javascript = "javascript"
+console.log(`hey ${javascript}`); */
