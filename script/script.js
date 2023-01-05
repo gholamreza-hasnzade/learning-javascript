@@ -306,3 +306,40 @@ console.log(benz); */
 let bwm = new Car("red", "bwm", 4)
 console.log(bwm);
  */
+
+/*
+ * Class OOP
+ * constructor function
+ * extends
+ */
+
+/* class Car {
+  constructor(color, name, tairCount) {
+    this.color = color;
+    this.name = name;
+    this.tairCount = tairCount;
+  }
+
+  speadRun () {
+    console.log(this.name + "ماشین در رفت");
+  }
+}
+
+class Truck extends Car {
+  constructor(color, name, tairCount, maxBar) {
+    super(color, name, tairCount);
+    this.maxBar = maxBar;
+  }
+
+  speadRun () {
+    super.speadRun()
+    //console.log("Truck" , this.name);
+  }
+}
+
+let firstTrcuk = new Truck("black", "fH", 18, 1000);
+firstTrcuk.speadRun()
+console.log(firstTrcuk);
+ */
+
+/////////////////////////////////////////////////////////
