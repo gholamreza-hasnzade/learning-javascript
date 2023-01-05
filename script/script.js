@@ -39,7 +39,7 @@ let num2 = 20;
 var num1 = 30;
 let num2 = 40;
 console.log("num1:", num1); // * success but not true
-console.log("num2:", num2); // *  has already been declared error 
+console.log("num2:", num2); // *  has already been declared error
 */
 // * scope global
 /* let num1 = 10;
@@ -202,7 +202,7 @@ console.log(userName, num, double(2), userFullName); */
  * map in lists
  * ما زمانی از مپ استفاده میکنیم بخواهیم بلایی به سر تک تک آرایه های مورد نظر خود بیاریم
  */
-/* 
+/*
 let scores = [0, 1, 2, 3, 4, 5];
 
 let mapResult = scores.map((score) => {
@@ -277,3 +277,19 @@ user2ShowAge();
  */
 
 /////////////////////////////////////////////////////////
+/*
+ * Class OOP
+ * constructor function
+ */
+
+/* function Car(color, name, tairCount) {
+    this.color = color
+    this.name = name
+    this.tairCount = tairCount
+}
+
+let bwm = new Car("red", "bwm", 4)
+let benz = new Car("black", "benz", 4)
+
+console.log(bwm);
+console.log(benz); */
