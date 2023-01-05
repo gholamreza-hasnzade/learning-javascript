@@ -426,3 +426,20 @@ if (isLogin) {
   console.log("your not login");
 }
  */
+
+/////////////////////////////////////////////////////////
+
+/*
+ * And-vs-Or
+ *  && (AND) || (OR)
+ */
+
+/* let num1 = 8;
+let num2 = 4;
+let num3 = 5;
+
+if (num1 + num2 === 12 && num2 + num3 === 10) {
+  console.log("OK");
+} else {
+  console.log("NOT OK");
+} */
