@@ -348,3 +348,29 @@ console.log(firstTrcuk);
  */
 /* let javascript = "javascript"
 console.log(`hey ${javascript}`); */
+
+/////////////////////////////////////////////////////////
+
+/*
+ * filter
+ */
+/* let numbers = [2, 4, 1, 10, 12, 18, 22, 19];
+
+let newArr = numbers.filter((num) => {
+  return num === 10;
+});
+
+console.log(newArr);
+ */
+
+/* let allProducts = [
+  { id: 1, name: "laptop", price: 7000 },
+  { id: 2, name: "phone", price: 5000 },
+  { id: 3, name: "milk", price: 6000 },
+  { id: 4, name: "sabon golnar", price: 4000 },
+];
+
+let filterAllProducts = allProducts.filter((product) => {
+    return product.price < 5000
+})
+console.log(filterAllProducts); */
