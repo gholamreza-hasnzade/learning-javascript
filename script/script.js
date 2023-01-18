@@ -513,10 +513,10 @@ function addArticle(callback) {
 }
 addArticle(articleLog); */
 //////////////////////////////////////////////
-/* let loginPromise = new Promise((resole, reject) => {
+/* let loginPromise = new Promise((resolve, reject) => {
     let isLogin = true;
     if (isLogin) {
-        resole("user is login :))");
+        resolve("user is login :))");
     } else {
         reject("User in not login :((");
     }
@@ -534,10 +534,10 @@ loginPromise
 }
 
 function middleLog() {
-    return new Promise((resole, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             console.log(2);
-            resole();
+            resolve();
         }, 3000);
     });
 }
@@ -550,4 +550,32 @@ middleLog()
         lastLog();
     })
     .catch(() => {}); */
+//////////////////////////////////////////////
+/* let articles = [
+    { id: 1, title: "callbacks in j3", createAt: "1400-10-10" },
+    { id: 2, title: "Ajax in React js", createAt: "1400-10-29" },
+];
+
+function articleLog() {
+    articles.forEach((article) => {
+        console.log(article);
+    });
+}
+
+function addArticle() {
+    let newArticle = {
+        id: 3,
+        title: "Ajax in Vue js",
+        createAt: "1400-11-29",
+    };
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            articles.push(newArticle);
+            resolve();
+        }, 3000);
+    });
+}
+addArticle().then(() => {
+    articleLog();
+}); */
 //////////////////////////////////////////////
