@@ -513,3 +513,19 @@ function addArticle(callback) {
 }
 addArticle(articleLog); */
 //////////////////////////////////////////////
+/* let loginPromise = new Promise((resole, reject) => {
+    let isLogin = true;
+    if (isLogin) {
+        resole("user is login :))");
+    } else {
+        reject("User in not login :((");
+    }
+});
+loginPromise
+    .then((res) => {
+        console.log(res);
+    })
+    .catch((err) => {
+        console.log(`Error is Promise: ${err}`);
+    }); */
+//////////////////////////////////////////////
