@@ -448,7 +448,7 @@ if (num1 + num2 === 12 && num2 + num3 === 10) {
 /*
  * callback
  */
-function showValue(num, callback) {
+/* function showValue(num, callback) {
     let power = num ** 2;
     callback();
     return power;
@@ -458,4 +458,16 @@ function showLog() {
     console.log("this is test");
 }
 let result = showValue(3, showLog);
-console.log(result);
+console.log(result); */
+//////////////////////////////////////////////
+/* function myDisplayer(some) {
+    document.getElementById("demo").innerHTML = some;
+}
+
+function myCalculator(num1, num2, myCallback) {
+    let sum = num1 + num2;
+    myCallback(sum);
+}
+
+myCalculator(5, 15, myDisplayer); */
+//////////////////////////////////////////////
