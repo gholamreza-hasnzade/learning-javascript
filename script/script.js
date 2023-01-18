@@ -471,3 +471,21 @@ function myCalculator(num1, num2, myCallback) {
 
 myCalculator(5, 15, myDisplayer); */
 //////////////////////////////////////////////
+/* function firstLog() {
+    console.log(1);
+}
+
+function middleLog(callback) {
+    setTimeout(() => {
+      callback()
+        console.log(2);
+        
+    }, 3000);
+}
+function lastLog() {
+    console.log(3);
+}
+firstLog()
+middleLog(lastLog)
+ */
+//////////////////////////////////////////////
