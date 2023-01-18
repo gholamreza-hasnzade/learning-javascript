@@ -529,3 +529,25 @@ loginPromise
         console.log(`Error is Promise: ${err}`);
     }); */
 //////////////////////////////////////////////
+function firstLog() {
+    console.log(1);
+}
+
+function middleLog() {
+    return new Promise((resole, reject) => {
+        setTimeout(() => {
+            console.log(2);
+            resole();
+        }, 3000);
+    });
+}
+function lastLog() {
+    console.log(3);
+}
+firstLog();
+middleLog()
+    .then(() => {
+        lastLog();
+    })
+    .catch(() => {});
+//////////////////////////////////////////////
