@@ -443,3 +443,19 @@ if (num1 + num2 === 12 && num2 + num3 === 10) {
 } else {
   console.log("NOT OK");
 } */
+/////////////////////////////////////////////////////////
+
+/*
+ * callback
+ */
+function showValue(num, callback) {
+    let power = num ** 2;
+    callback();
+    return power;
+}
+
+function showLog() {
+    console.log("this is test");
+}
+let result = showValue(3, showLog);
+console.log(result);
