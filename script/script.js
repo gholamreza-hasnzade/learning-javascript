@@ -489,3 +489,27 @@ firstLog()
 middleLog(lastLog)
  */
 //////////////////////////////////////////////
+/* let articles = [
+    { id: 1, title: "callbacks in j3", createAt: "1400-10-10" },
+    { id: 2, title: "Ajax in React js", createAt: "1400-10-29" },
+];
+
+function articleLog() {
+    articles.forEach((article) => {
+        console.log(article);
+    });
+}
+
+function addArticle(callback) {
+    let newArticle = {
+        id: 3,
+        title: "Ajax in Vue js",
+        createAt: "1400-11-29",
+    };
+    setTimeout(() => {
+        articles.push(newArticle);
+        callback();
+    }, 3000);
+}
+addArticle(articleLog); */
+//////////////////////////////////////////////
