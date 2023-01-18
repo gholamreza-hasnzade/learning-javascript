@@ -529,7 +529,7 @@ loginPromise
         console.log(`Error is Promise: ${err}`);
     }); */
 //////////////////////////////////////////////
-function firstLog() {
+/* function firstLog() {
     console.log(1);
 }
 
@@ -549,5 +549,5 @@ middleLog()
     .then(() => {
         lastLog();
     })
-    .catch(() => {});
+    .catch(() => {}); */
 //////////////////////////////////////////////
