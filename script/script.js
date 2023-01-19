@@ -579,3 +579,28 @@ addArticle().then(() => {
     articleLog();
 }); */
 //////////////////////////////////////////////
+/*
+ * async await
+ */
+function firstLog() {
+  console.log(1);
+}
+
+function middleLog() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(2);
+      resolve();
+    }, 3000);
+  });
+}
+function lastLog() {
+  console.log(3);
+}
+
+async function allLogs() {
+  firstLog();
+  await middleLog();
+  lastLog();
+}
+allLogs();
