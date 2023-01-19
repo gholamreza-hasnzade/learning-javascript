@@ -604,3 +604,34 @@ async function allLogs() {
   lastLog();
 }
 allLogs(); */
+//////////////////////////////////////////////
+/* let articles = [
+  { id: 1, title: "callbacks in j3", createAt: "1400-10-10" },
+  { id: 2, title: "Ajax in React js", createAt: "1400-10-29" },
+];
+
+function articleLog() {
+  articles.forEach((article) => {
+    console.log(article);
+  });
+}
+
+function addArticle() {
+  let newArticle = {
+    id: 3,
+    title: "Ajax in Vue js",
+    createAt: "1400-11-29",
+  };
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      articles.push(newArticle);
+      resolve();
+    }, 3000);
+  });
+}
+async function init() {
+  await addArticle();
+  articleLog();
+}
+init(); */
+//////////////////////////////////////////////
