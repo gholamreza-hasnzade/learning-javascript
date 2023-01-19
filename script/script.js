@@ -582,7 +582,7 @@ addArticle().then(() => {
 /*
  * async await
  */
-function firstLog() {
+/* function firstLog() {
   console.log(1);
 }
 
@@ -603,4 +603,4 @@ async function allLogs() {
   await middleLog();
   lastLog();
 }
-allLogs();
+allLogs(); */
