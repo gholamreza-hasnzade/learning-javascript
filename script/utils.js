@@ -1,4 +1,4 @@
-let userName = "Gholamreza";
+/* let userName = "Gholamreza";
 let num = 28;
 
 function double(num) {
@@ -7,4 +7,4 @@ function double(num) {
 
 let userFullName = "Ali karimi";
 export default userFullName;
-export { userName, num, double };
+export { userName, num, double }; */
