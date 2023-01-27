@@ -8,3 +8,8 @@ function double(num) {
 let userFullName = "Ali karimi";
 export default userFullName;
 export { userName, num, double }; */
+
+
+/* 
+* I am sick, this is terrible
+ */
